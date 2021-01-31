@@ -1,0 +1,41 @@
+body{
+
+background-color: rgba(41, 16, 102, 0.8);
+
+}
+
+body{
+
+
+text-align : center;
+color:white;
+font-family: 'Jua', sans-serif;
+font-size: 40px;
+
+
+}
+
+table{
+
+width:1000px;
+height: 100px;
+margin: auto;
+text-align: center;
+font-size: 40px;
+color:white;
+font-family: 'Jua', sans-serif;
+
+}
+
+#rconers{
+
+border-radius: 25px;
+border : 1;
+
+}
+
+.line{
+
+border-bottom:1px solid white;
+
+}

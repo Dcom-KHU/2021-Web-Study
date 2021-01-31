@@ -1,0 +1,66 @@
+.title{
+    font-family : 'Cute Font', cursive;
+    text-align: center;
+    color: lightyellow;
+    font-size: 60px;
+    margin: 0 auto;    
+}
+
+body{
+    background-color: rgba(42, 75, 70, 0.479);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Cute Font', cursive;
+}
+
+#foodtable{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 25px;
+}
+
+td{
+    width: 300px;
+    height: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 250px;
+    height: 140px;
+}
+
+#drinktable{
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 25px;
+}
+
+.original_dew:hover{
+    color: red;
+    background-color: violet;
+}
+
+#real img:last-child{
+    display: none;
+}
+#real:hover img:first-child{
+    display: none;
+}
+#real:hover img:last-child{
+    display: inline-block;
+}
+
+#real:hover{
+    background: red;
+}

@@ -1,0 +1,86 @@
+body{
+    background: #106146;
+    border : 10px solid ivory;
+    height : 700px;
+    width : 700px;
+    margin : 5px auto;
+}
+
+table {
+    width : 500px;
+    margin : auto;
+    border-top : 4px solid ivory;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom : 4px solid ivory;
+    text-align: center;
+}
+
+a:link { color: ivory; text-decoration: none;}
+a:visited { color: ivory; text-decoration: none;}
+a:hover { color: ivory; text-decoration: underline;}
+
+
+.align-center { text-align: center; }
+
+#name{
+    color: ivory;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    padding-bottom : 5px;
+}
+
+
+#category{
+    color: ivory;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    padding-bottom : 10px;
+    padding-top : 10px;
+}
+
+#menu{
+    color: ivory;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#image{
+    width: auto;
+    height : 200px;
+    margin : 0px auto;
+    display: block;
+    border : 2px solid ivory;
+}
+
+#joomoon{
+    width : 100px;
+    background: dodgerblue;
+    color: ivory;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    margin : 20px auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+#back{
+    width : 100px;
+    background: goldenrod;
+    color: ivory;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    margin : 20px auto;
+    padding-top : 10px;
+    padding-bottom : 10px;
+
+}
+
+#logo{
+    width: auto;
+    height : 100px;
+    margin : 0px auto;
+    display: block;
+    opacity: 0.85;
+}
