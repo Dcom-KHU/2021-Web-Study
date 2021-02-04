@@ -1,0 +1,35 @@
+#zindex1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.774);
+    z-index: 1;
+}
+#zindex2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: greenyellow;
+    z-index: 2;
+}
+#zindex3 {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: skyblue;
+    z-index: 3;
+}
+
+.relative{
+    position: relative;
+    border: 3px solid blue;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.zbox{
+    width: 300px; height: 60px;
+}

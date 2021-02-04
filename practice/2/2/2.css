@@ -1,0 +1,27 @@
+.static{
+    border: 3px solid red;
+}
+.relative{
+    position: relative;
+    border: 3px solid blue;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.absolute{
+    position: absolute;
+    border: 3px solid yellow;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    }
+    
+.fixed{
+    position: fixed;
+    border: 3px solid purple;
+    top: 20px;
+    left: 30px;
+}
+
