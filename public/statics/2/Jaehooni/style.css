@@ -1,0 +1,256 @@
+h1.title{
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    color: #C4B998;
+}
+
+h2.title{
+    text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: #C4B998;
+}
+
+
+nav li{
+    color: #b2d9db;
+    display: inline-block;
+    margin: 0px 50px 0px 30px;
+    
+}
+
+.introduction_list{
+    border: none;
+    background-clip: content-box;
+    position: fixed;
+    background-color: rgba(20, 37, 50, 0.7);
+    width: 100%;
+    top:0px;
+    z-index: 3;
+}
+
+
+.navigator{
+    text-decoration: None;
+    color: white;
+}
+
+.champion_name{
+    color : white;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: left;
+    margin: 30px 40px;
+
+
+}
+
+.champion_name2{
+    color : white;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    margin: 30px 40px;
+}
+
+.champion_image{
+    background-image: url("./Images/default_Lux.jpg");
+    background-position: 30% 17%;
+    background-size: 105%;
+    margin-bottom: 0px;
+    z-index: 2;
+
+
+}
+
+.champion_image:before{
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:43%;
+    box-shadow:inset 0px 30px 90px 30px rgba(0,0,0,1);
+}
+
+body{
+    background-color: rgba(1,10,19,.9);
+}
+
+
+.contents{
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: white;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+#all{
+    width: 1180px;
+    height: 7000px;
+    padding: 20px;
+    margin: 0px 20px 20px 130px;
+    border: 5px solid rgb(195, 167, 88);
+    background-color:rgba(1,10,19,.9);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#status{
+    width: 540px;
+    height: 230px;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    float: left;
+    border: 1px solid rgb(195, 167, 88);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+
+}
+
+#status_info{
+    font-size: 13px;
+    margin-left: 100px;
+    background-color:rgba(1,10,19,.9);
+    color: #C4B998;
+
+}
+
+.Lux_video{
+    width: 557px;
+    height: 230px;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    float: right;
+    border: none;
+    background-color:rgba(1,10,19,.9);
+}
+
+iframe{
+    margin-left: 10px;
+}
+
+#empty{
+    width: 1000px;
+    height: 300px;
+    clear: both;
+}
+
+#story{
+    width: 1000px;
+    height: 2200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 3px solid rgb(195, 167, 88);
+    border-left: none;
+    border-right: none;
+    background-color: rgba(1,10,19,.9);
+    clear: both;
+}
+
+#background_story{
+    text-align : left;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin-left: 180px;
+    color: #F0E6D2;
+
+}
+
+
+#story_link{
+    background-color: rgba(25,28,33,0.8);
+    border: 3px solid #c3a758;
+    width: 300px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#link{
+    line-height: 40px;
+    text-decoration: None;
+    color: #937341;
+    margin-top: 10px;
+}
+
+#skill{
+    width: 1000px;
+    height: 2350px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 3px solid rgb(195, 167, 88);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: rgba(1,10,19,.9);
+    clear: both;
+
+}
+
+
+.skill_list{
+    width: 1000px;
+    height: 300px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid rgb(195, 167, 88);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: rgba(1,10,19,.9);
+    clear: both;
+    display: flex;
+
+}
+
+.skill_list.Lux_video{
+    width: 410px;
+    height: 230px;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    float: right;
+    border: none;
+    background-color:rgba(1,10,19,.9);
+
+
+}
+
+.skill_info{
+    font-size: 13px;
+    text-align: left;
+    width: 650px;
+    color: #C4B998;
+    
+
+}
+
+video{
+    margin-left: 50px;
+    border: 3px solid rgb(195, 167, 88);
+
+}
+
+img{
+    width: 64px;
+    height: 64px;
+    border: 3px solid rgb(195, 167, 88);
+}
+
+.skin_img{
+    width: 339px;
+    height: 200px;
+    border: 2px solid rgb(195, 167, 88);
+}
