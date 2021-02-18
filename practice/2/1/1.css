@@ -1,4 +1,5 @@
 div {
+    width: 50%;
     border: 3px solid red;
 }
 span {
@@ -7,5 +8,9 @@ span {
 
 
 div {
-    display: inline;
+    display: inline-block;
+}
+
+br {
+    border: 3px solid red;
 }
