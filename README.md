@@ -40,7 +40,7 @@ HTML, CSS, Javascript를 이용한 웹 개발을 배웁니다.
   - Handling DOM event
 
 - Chap 4 [[Lecture Note]](https://github.com/Dcom-KHU/2021-Web-Study/blob/main/lecture_note/%5BWS%5DLecture4.pdf)
-  - Deploying a website using Netlify
+  - Publishing a website using Netlify
 
 ## Contact
 - Yongwoo Song, ywsong.dev@kakao.com
